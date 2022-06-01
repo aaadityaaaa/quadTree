@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093466AD28473200008B08F3 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093466AC28473200008B08F3 /* QuadTree.swift */; };
+		093466AF28473DF0008B08F3 /* QuadTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093466AE28473DF0008B08F3 /* QuadTreeViewModel.swift */; };
+		093466B12847C94F008B08F3 /* QuadTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093466B02847C94F008B08F3 /* QuadTreeView.swift */; };
 		09B3A1622845EB7400DA9C16 /* QuadTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3A1612845EB7400DA9C16 /* QuadTreeApp.swift */; };
 		09B3A1642845EB7400DA9C16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3A1632845EB7400DA9C16 /* ContentView.swift */; };
 		09B3A1662845EB7B00DA9C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B3A1652845EB7B00DA9C16 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093466AC28473200008B08F3 /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+		093466AE28473DF0008B08F3 /* QuadTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeViewModel.swift; sourceTree = "<group>"; };
+		093466B02847C94F008B08F3 /* QuadTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeView.swift; sourceTree = "<group>"; };
 		09B3A15E2845EB7400DA9C16 /* QuadTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B3A1612845EB7400DA9C16 /* QuadTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeApp.swift; sourceTree = "<group>"; };
 		09B3A1632845EB7400DA9C16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				09B3A1612845EB7400DA9C16 /* QuadTreeApp.swift */,
 				09B3A1632845EB7400DA9C16 /* ContentView.swift */,
+				093466AE28473DF0008B08F3 /* QuadTreeViewModel.swift */,
+				093466B02847C94F008B08F3 /* QuadTreeView.swift */,
+				093466AC28473200008B08F3 /* QuadTree.swift */,
 				09B3A1652845EB7B00DA9C16 /* Assets.xcassets */,
 				09B3A1672845EB7B00DA9C16 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093466B12847C94F008B08F3 /* QuadTreeView.swift in Sources */,
+				093466AD28473200008B08F3 /* QuadTree.swift in Sources */,
+				093466AF28473DF0008B08F3 /* QuadTreeViewModel.swift in Sources */,
 				09B3A1642845EB7400DA9C16 /* ContentView.swift in Sources */,
 				09B3A1622845EB7400DA9C16 /* QuadTreeApp.swift in Sources */,
 			);
