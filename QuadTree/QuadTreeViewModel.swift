@@ -54,7 +54,7 @@ final class QuadTreeViewModel: ObservableObject {
         }
         let searchSize2: CGFloat = searchSize/2
         findWindow = CGRect(x: point.x, y: point.y, width: 0, height: 0).insetBy(dx: -searchSize2, dy: -searchSize2)
-        foundPoints = quadTree.find(in: CGRect(x: point.x - searchSize2, y: point.y - searchSize2, width: searchSize / size.width, height: searchSize / size.height))
+        foundPoints = quadTree.find(in: CGRect(x: (point.x-searchSize2) / size.width, y: (point.y-searchSize2) / size.height, width: searchSize / size.width, height: searchSize / size.height))
     }
     
     
